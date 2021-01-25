@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
-import LoginRegisterForm from './components/LoginRegisterForm'
+import './App.scss';
+import LoginRegisterForm from './components/LoginRegisterForm';
+import Header from './components/Header';
 
 function App() {
 
@@ -8,9 +9,7 @@ let isRegistered = false;
 
   return (
     <div className="App">
-      <div className="loginRegisterFormContainer">
-        <LoginRegisterForm></LoginRegisterForm>
-      </div>
+      <Header />
     </div>
   );
 }

@@ -18,6 +18,7 @@ export default class DatabaseController {
             if (error) throw error;
             console.log(results)
         })
+        this.connectio.end()
     }
     
 }

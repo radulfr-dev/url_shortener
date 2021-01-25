@@ -21,6 +21,3 @@ app.listen(PORT, () => {
     console.log(`Listening to port: ${PORT}`)
 })
 
-app.get('/', Auth.userIsLoggedIn, (req, res) => {
-    return res.end('Main app')
-})
