@@ -1,6 +1,6 @@
-#MovingWorlds Url Shortener
+# MovingWorlds Url Shortener
 
-##Installation
+## Installation
 
 The NPM packages need to be installed for both the server and the client side.
 The below command needs to be run in both the server folder and the client folder.
