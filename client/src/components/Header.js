@@ -1,9 +1,12 @@
 import Nav from './Nav'
+import './styles/Header.scss'
+import Logo from './Logo.js'
+
 function Header() {
   return (
     <div className="header">
       <div className="logo">
-          <h1>Logo</h1>
+        <Logo />
       </div>
       <Nav />
     </div>
